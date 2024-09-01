@@ -120,6 +120,21 @@ public class Main{
     
     }
 
+    publiv void reverse(){
+       Node prev=null;
+       Node curr=tail=head;
+       Node next;
+       while(curr!=null){
+         next=curr.next;
+         prev=curr.next;
+         prev=next;
+         curr=next;
+
+         }
+         }
+         head=prev;
+         
+
 
     public static Node head;
     public static Node tail;
