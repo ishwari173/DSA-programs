@@ -85,6 +85,7 @@ public class Main{
     }
 
 }
+############ **Removing element into linkedList**  ##########################
 
     void print(){
         Node temp=head;
