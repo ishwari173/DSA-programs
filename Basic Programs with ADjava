@@ -1,0 +1,13 @@
+############Reverse the String###############
+public static void main(String[]args){
+      String str="Astrology";
+     StringBuilder reversed=new StringBulder(str).reverse();
+     Sysytem.out.println(reversed);
+}
+#################Check if String palindrome ####################
+
+public static void main(String[]args){
+      String str="Madam";
+     String reversed=new StringBuilder(str).reverse().toString();
+    System.out.Println(str.equals(reversed);
+}
