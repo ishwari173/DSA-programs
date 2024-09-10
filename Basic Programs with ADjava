@@ -16,8 +16,10 @@ public static void main(String[]args){
 
 
 int n=10,num1=0,num2=1;
-        System.out.println("FiboSe"+num1+","+num2);
-        for(int i=2;i<n;i++){
-            int num3=num1+num2;
-            System.out.println(","+num3);
-            num1=num2=num3;
+system.out.println(" "+num1+" "+num2);
+for(int i=2;i<n;i++){
+    int num3=num1+num2;
+    num1=num2=num3;
+This updates both num1 and num2 to the value of num3, preparing for the next iteration.
+    sout(num3)
+}
