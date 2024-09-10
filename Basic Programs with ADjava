@@ -8,8 +8,9 @@ public static void main(String[]args){
 
 public static void main(String[]args){
       String str="Madam";
-     String reversed=new StringBuilder(str).reverse().toString();
-    System.out.Println(str.equals(reversed);
+      String reversed=new StringBuilder(str).reverse().toString();
+     System.out.println(str.equals(reversed);
+    
 }
 #######################Fibonacci series########################
 
