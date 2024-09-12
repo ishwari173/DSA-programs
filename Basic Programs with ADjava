@@ -53,3 +53,12 @@ consonants++;
 If the letter c is a consonant, we increase the consonant count (consonants) by 1.
 
 ########################### factorial ################################3
+Scanner scan=new Scanner(System.in);
+        System.out.println("enter the number:");
+        int num=scan.nextInt();
+        int fact=1;
+        for(int l=1;l<num;l++){
+            fact*=l;
+            System.out.println(fact);
+}
+
