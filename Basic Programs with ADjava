@@ -61,7 +61,7 @@ Scanner scan=new Scanner(System.in);
             fact*=l;
             System.out.println(fact);
 }
-################### Sorting an Array in ascending order###############33333333
+################### Sorting an Array in ascending order##############################
  Scanner sc=new Scanner(System.in);
         System.out.println("enter the size:");
         int size=sc.nextInt();
@@ -73,3 +73,6 @@ Scanner scan=new Scanner(System.in);
 
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
+
+####################### Sorting Array in decesding order ################################
+
