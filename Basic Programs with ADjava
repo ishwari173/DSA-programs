@@ -98,3 +98,19 @@ Scanner scan=new Scanner(System.in);
         }
     }
 }
+################### agin AD method for desceding sortinng######################
+   Scanner scan=new Scanner(System.in);
+        System.out.println("enter the size of the arr:");
+        int size=scan.nextInt();
+        System.out.println("eneter the "+size+"element:");
+             Integer [] array=new Integer[size];
+
+
+        // Sorting the array in descending order
+                Arrays.sort(array, Collections.reverseOrder());
+
+                // Printing the elements
+                System.out.println(Arrays.toString(array));
+            }
+        }
+
