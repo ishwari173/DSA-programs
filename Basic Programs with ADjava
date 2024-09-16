@@ -110,6 +110,17 @@ Scanner scan=new Scanner(System.in);
                 Arrays.sort(array, Collections.reverseOrder());
 
                 // Printing the elements
+########################### Merging two array#################################
+int[] a = {1, 2, 3};
+int[] b = {4, 5, 6};
+int a1 = a.length;
+int b1 = b.length;
+int c1 = a1 + b1;
+int[] c = new int[c1]; // Create array 'c' with size c1
+
+System.arraycopy(a, 0, c, 0, a1);   // Copy 'a' into 'c'
+System.arraycopy(b, 0, c, a1, b1);  // Copy 'b' into 'c'
+
                 System.out.println(Arrays.toString(array));
             }
         }
