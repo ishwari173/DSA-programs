@@ -74,42 +74,49 @@ Scanner scan=new Scanner(System.in);
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
 
-####################### Sorting Array in decesding order ################################
-
- public static void reverse(int[] array)
-    {
-        // Length of the array
-        int n = array.length;
-
-        // Swapping the first half elements 
-        // With last Half Elements
-        for (int i = 0; i < n / 2; i++) {
-
-            // Storing the first half elements temporarily
-            int temp = array[i];
-
-            // Assigning the first half
-              // to the last half
-            array[i] = array[n - i - 1];
-
-            // Assigning the last half
-            // to the first half
-            array[n - i - 1] = temp;
-        }
-    }
-}
-################### agin AD method for desceding sortinng######################
-   Scanner scan=new Scanner(System.in);
-        System.out.println("enter the size of the arr:");
+####################### Sorting Array in asceding and  decesding order logic  ################################
+ Scanner scan=new Scanner(System.in);
+        System.out.println("enter the size array: ");
         int size=scan.nextInt();
-        System.out.println("eneter the "+size+"element:");
-             Integer [] array=new Integer[size];
+        System.out.println("enter "+size+"element:");
+       int []array=new int[size];
+       for(int i=0;i<size;i++){
+           array[i]=scan.nextInt();
+       }
+
+        System.out.println("the given array:"+Arrays.toString(array));
+       int temp=0;
+        for(int i=0;i<size;i++){
+            for(int j=i+1;j<size;j++){
+                if(array[i]>array[j]){
+                    temp=array[i];
+                    array[i]=array[j];
+                    array[j]=temp;
+
+                }
+            }
+        }
+        System.out.println("sorted :"+Arrays.toString(array));
+
+       for(int i=0;i<size;i++){
+           for(int j=i+1;j<size;j++){
+               if(array[i]<array[j]){
+                   temp=array[i];
+                   array[i]=array[j];
+                   array[j]=temp;
+
+               }
+           }
+       }
+
+        System.out.println("sorted wale:"+Arrays.toString(array));}}
 
 
-        // Sorting the array in descending order
-                Arrays.sort(array, Collections.reverseOrder());
 
-                // Printing the elements
+
+
+
+
 ########################### Merging two array#################################
 int[] a = {1, 2, 3};
 int[] b = {4, 5, 6};
