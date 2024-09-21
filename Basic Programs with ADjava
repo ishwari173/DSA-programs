@@ -121,6 +121,12 @@ int arr[]={1,8,2,3};
          }
      }
         System.out.println("largest: "+max);
+######################### removing duplicate element ########################3
+ HashSet<Integer>set=new HashSet<>();
+     for(int num:arr){
+         set.add(num);
+     }
+        System.out.println("non duplicate:"+set);
 
 
 
