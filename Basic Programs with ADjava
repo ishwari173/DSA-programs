@@ -160,6 +160,21 @@ Scanner scan=new Scanner(System.in);
 
 
 ################################## Armstrong ###########################
+Scanner Scan=new Scanner(System.in);
+        System.out.println("enter number");
+        int n=Scan.nextInt();
+        int temp=n;
+        int sum=0;
+        int count=String.valueOf(n).length();
+        while(n>0){
+            int r=n%10;
+            sum+=Math.pow(r,count);
+            n/=10;
+        }
+        if(sum==temp){
+            System.out.println("same hai bhai");
+        }
+
 
         if(temp==sum){
             System.out.println("same same");
