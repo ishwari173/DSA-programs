@@ -12,7 +12,7 @@ public static void main(String[]args){
      System.out.println(str.equals(reversed);
     
 }
-#######################Fibonacci series########################
+#######################Fibonacci series############
 
 
 int n=10,num1=0,num2=1;
